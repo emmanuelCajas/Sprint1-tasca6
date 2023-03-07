@@ -1,4 +1,4 @@
-package tasca6.N1ejercicio2;
+package tasca6.N2ejercicio1;
 
 /*
  * Crea una clase llamada Persona con los atributos nombre, apellido y edad. Después crea una clase
@@ -11,6 +11,10 @@ package tasca6.N1ejercicio2;
 	De esta manera has comprobado que se le puede pasar cualquier tipo de parámetro y en cualquier orden.
  */
 
+/*
+ * Modifica el ejercicio anterior de manera que uno de los argumentos del método genérico no sea genérico.
+ */
+
 
 public class Main {
 
@@ -18,7 +22,7 @@ public class Main {
 		
 		Persona persona = new Persona("Emmanuel","Cajas",38);
 		
-		GenericMethods.metodoGenerico(persona, "abc", 3500);
+		GenericMethods.metodoGenerico(persona, persona, persona);
 		GenericMethods.metodoGenerico("abc", persona, 3500);
 		GenericMethods.metodoGenerico(persona, 3500, "abc");
 	}

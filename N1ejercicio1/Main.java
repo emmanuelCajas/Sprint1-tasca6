@@ -1,5 +1,13 @@
 package tasca6.N1ejercicio1;
 
+
+/*
+ * Crea una clase llamada NoGenericMethods que almacene tres objetos del mismo tipo, junto con los métodos 
+ * para almacenar y extraer estos objetos y un constructor para inicializar los tres. Comprueba que los 
+ * argumentos se pueden poner en cualquier posición en el llamamiento al constructor.
+ */
+
+
 public class Main {
 
 	public static void main(String[] args) {
