@@ -1,4 +1,4 @@
-package tasca6.N2ejercicio1;
+package tasca6.N2ejercicio2;
 
 /*
  * Crea una clase llamada Persona con los atributos nombre, apellido y edad. Después crea una clase
@@ -22,9 +22,8 @@ public class Main {
 		
 		Persona persona = new Persona("Emmanuel","Cajas",38);
 		
-		//GenericMethods.metodoGenerico(persona, persona, persona);
-		GenericMethods.metodoGenerico("abc", persona, 3500);
-		GenericMethods.metodoGenerico("def", 3500, persona);
+		GenericMethods.metodoGenerico("abc", persona);
+		GenericMethods.metodoGenerico("def", 3500, persona,3.4,"Peru");
 	}
 
 }
