@@ -22,7 +22,6 @@ public class Main {
 		
 		Persona persona = new Persona("Emmanuel","Cajas",38);
 		
-		//GenericMethods.metodoGenerico(persona, persona, persona);
 		GenericMethods.metodoGenerico("abc", persona, 3500);
 		GenericMethods.metodoGenerico("def", 3500, persona);
 	}

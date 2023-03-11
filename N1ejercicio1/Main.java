@@ -20,4 +20,4 @@ public class Main {
 		System.out.println(objeto3);
 		
 	}
-}
+}//CAMBIAR ATRIBUTO DNI POR SEGUNDO APELLIDO
